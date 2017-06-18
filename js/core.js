@@ -79,13 +79,13 @@ function drawScene() {
  
 // Загрузка картинок
  imgBrick = new Image();
- imgBrick.src = 'images/brick.png';
+ imgBrick.src = 'img/brick.png';
  imgSteel = new Image();
- imgSteel.src = 'images/steel.png';
+ imgSteel.src = 'img/steel.png';
  imgWater = new Image();
- imgWater.src = 'images/water.png';
+ imgWater.src = 'img/water.png';
  imgForest = new Image();
- imgForest.src = 'images/forest.png';
+ imgForest.src = 'img/forest.png';
  
 
  });
