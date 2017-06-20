@@ -12,7 +12,7 @@ let frameCount = function _fc(timeStart){
             _fc.fps = _fc.counter;
             _fc.counter = 0;
             timeStart = now; 
-            console.log(_fc.fps);
+            //console.log(_fc.fps);
         
 
         }
