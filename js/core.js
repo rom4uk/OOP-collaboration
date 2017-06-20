@@ -14,6 +14,9 @@
  		move.play();
  	}
  }
+
+
+
  function shutting(e){
  	var target = e.keyCode;
  	var shut = document.querySelector('.gunshut');
@@ -68,6 +71,8 @@ for (var y = 0; y < iYCnt; y++) {
 
 	context.restore();
 }
+
+
 
 $(function(){
 	canvas = document.getElementById('scene');
