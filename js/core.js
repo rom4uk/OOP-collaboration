@@ -11,8 +11,6 @@
  	var move = document.querySelector('.move');
  	if (target === 39 || target === 40 || target === 37 || target === 38){
  		move.currentTime = 0;
- 		move.duration = move.duration - 3;
- 		console.log(move.duration)
  		move.play();
  	}
  }
