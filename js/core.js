@@ -1,10 +1,10 @@
- window.addEventListener('load', function(e){
+ window.onload = function(e){
  	var begin = document.querySelector('.begin');
  	begin.play();
- });
+ };
 
  
- window.onkeydown = function(e){
+ document.onkeydown = function(e){
  	var target = e.keyCode;
  	var KEYCODE_LEFT = 37;
  	var KEYCODE_RIGHT = 39;
